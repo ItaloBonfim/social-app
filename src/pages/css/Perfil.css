@@ -1,0 +1,330 @@
+.main-perfil-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F6F7;
+    
+
+}
+
+.app-topbar-container {
+    position: sticky;
+    top: 0;
+    display: flex;
+    width: 100%;
+    z-index: 1000;
+}
+
+.perfil-container {
+    display: flex; /*eu adicionei*/
+    flex-direction: column; /*eu adicionei*/
+
+
+    padding: 20px 15%;
+    color: #626262;
+}
+
+.cover-img {
+    width: 100%;
+    max-height: 320px;
+    object-fit: cover; /*Eu que adicionei */
+    object-position: center; /* Eu que Adicionei */
+    border-radius: 6px;
+    margin-bottom: 14px;
+
+}
+
+.perfil-detalhes {
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.perfil-esquerda-row {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.perfil-esquerda-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover; /*Eu que adicionei */
+    object-position: top; /*Eu que adicionei */
+    margin-right: 20px;
+    border-radius: 6px;
+
+    transform: all 0.5;
+}
+
+.perfil-esquerda-img:hover {
+    transform: scale(1.3); 
+    cursor: pointer;
+}
+
+
+.perfil-esquerda-row div h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #626262;
+}
+.perfil-esquerda-row div p {
+    font-size: 13px;
+    color: #626262;
+    
+}
+
+.perfil-usuario {
+    display: flex;
+    align-items: center;
+
+}
+
+.publicacao-ref-avatar {
+    width: 45px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.postagens-container {
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    color: #626262;
+    margin: 20px 0;
+
+}
+
+.postagem-linha {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.perfil-usuario {
+    display: flex;
+    align-items: center;
+
+}
+
+.perfil-usuario p {
+
+    margin-bottom: -5px;
+    font-weight: 500;
+    color: #626262
+}
+
+.perfil-usuario small {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+
+    color: #626262
+}
+
+.texto-postagem {
+    color: #9a9a9a;
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+
+.texto-postagem span {
+    color: #626262;
+    font-weight: 600;
+
+}
+
+.texto-postagem a {
+    color: #1876f2;
+    text-decoration: none;
+}
+
+.postagem-img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.metricas-postagem-icones div {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.metricas-postagem-icones div svg {
+    width: 18px;
+    margin-right: 10px;
+}
+
+.postagem-icone-perfil {
+    display: flex;
+    align-items: center;
+}
+
+.info-perfil {
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-between;
+    width: 100%; /*Eu adicionei*/
+    margin-top: 20px;
+}
+
+.info-coluna {
+    flex-basis: 33%;
+
+
+}
+
+.perfil-introducao {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.perfil-introducao h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #626262;
+}
+
+.texto-intruducao {
+    text-align: center;
+    margin: 10px 0;
+
+    font-size: 15px;
+    color: #626262;
+}
+
+.titulo-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+   /* width: 100%; */
+    border-radius: 4px 4px 0; 
+
+
+}
+.titulo-box h3 {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    font-weight: 600;
+    padding: 4px 4px;
+    margin-top: 12px;
+    margin-left: 5px;
+
+    color: #626262;
+}
+
+.titulo-box p {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    font-weight: 600;
+    padding: 4px 4px;
+    margin-top: 0px;
+    margin-left: 5px;
+
+    color: #626262;
+}
+
+.titulo-box a {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-end;
+
+    text-decoration: none;
+    color: #1876f2;
+    font-size: 14px;
+
+    padding: 4px 4px;
+
+    margin-top: 12px;
+    margin-right: 5px;
+
+}
+
+
+.info-amigos {
+    transition: all 0.5s;
+    margin-bottom: 4px;
+}
+.info-amigos:hover {
+    transform: scale(1.3); 
+    cursor: pointer;
+}
+
+
+
+.box-fotos {
+    display: flex;
+}
+
+
+.box-fotos-grid {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+
+    background-color: #fff;
+   /* border-radius: 4px; */
+    margin-bottom: 14px;   
+
+}
+
+
+.box-fotos-img {
+    height: 90px;
+    width: 90px;
+    border-radius: 4px;
+    object-fit: cover;
+    object-position: center;
+
+    transition: all 0.5s;
+}
+.box-fotos-img:hover {
+    transform: scale(1.2); 
+    cursor: pointer;
+}
+
+.coluna-postagens {
+    flex-basis: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.group-info-perfil {
+    border-radius: 4px;
+}
+
+
+
+.border {
+    border: 1px solid red
+}
+
+
+
+
+.footer {
+    text-align: center;
+    color: #9a9a9a;
+    padding: 10px 0 20px;
+    font-size: 13px;
+}

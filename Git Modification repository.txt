@@ -1,0 +1,18 @@
+Conceitos e Erros identificado
+
+12/02/24 -----------------------------------------------------------------------------------------------------------------------
+Erros conhecidos
+
+'RandomImageURL': são espaços dedicados a URL de imagens provenientes de alguma fonte externa como nuvem ou Api externa:
+'cache': É possivel que devido ao mal carregamento das informações oriundas do back-end, o que faz que o cache fique salvo, não permitindo um recarregamento
+de novos dado. este erro está sendo analisado, mas está intimimamento conectado ao Redux-Persist.
+Abaixo ultimas atualização.
+
+alguns  campos e funcionalidades ainda IRÂO apresentas erros, afinal de contas, ainda não consegui testar ou implmentar todas as funcionalidades e metodos
+tanto do back-end quanto do front-end. esse processo, seguirei atualizando a medida do possivel.
+
+Pesquisa de usuarios: O metodo de pesquisa de usuarios ainda está sendo desenvolvido e de certa forma planejado, entretanto, no modal na aba "SEGUINDO" dentro do
+menu de amizades possui uma pequena amosta conceitual, que apresenta um erro devido ao react ser assincrono, o que faz com que o dado do campo de pesquisa
+seja enviado de forma incompleta.
+
+--------------------------------------------------------------------------------------------------------------------------------
